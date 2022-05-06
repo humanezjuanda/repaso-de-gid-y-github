@@ -1,0 +1,78 @@
+juan 
+castaño
+desarrollador de software
+estatura 1.71
+casado
+
+ramas git
+
+   master v1 v2 v3 actual
+ esperimrntos   v2 v
+
+
+ git reset numero de la version --hard
+ para volver en el tiempo y borrar todo lo que icimos
+  git reset numero de la version --soft
+ para volver al estado anterior              
+
+ git log --stat para ver los cambios especificos apartir del commit 
+
+<<<<<<< HEAD
+ git chekout numero de la version para ver como era el archivo antes nombre del archivo que vamos a ver como hera antes
+=======
+ git checkout numero de la version para ver como era el archivo antes nombre del archivo que vamos a ver como hera antes
+
+
+       flujo de trabajo 
+
+       git init = aprecen dos cosas nuevas area de preparaccion que es eñl lugar donde vamoa
+       a enviar los archivos antes de mandarlos a la base de datos de combios historicos 
+       que le hemos hecho al proyecto eso lo llamamos repositorio local
+
+       git add . = para poner los archivos en el area de preparaccion esto le permite a git hacer 
+       un rastero de los cambios que ocurran en un archivo 
+
+       git commit "nombre de la version" = enviamos todo lo que esta en rastreo hacia el repositorio definitivo 
+
+       cuandotrabajamos co otras personas 
+       necesitamos un repositorio remoto 
+
+       git clone url del repositorio remoto para traer archivos del rpositorio 
+       trae una copia del master a nuetro directorio de trabajo y crea la base de datos de todos los cambioa historicos 
+       en el reoositorio local y deja el rtastreo quieto y listo 
+
+       para trabajar en repositorio remoto 
+
+       git add . = directorio de trabajo preparaccion o staging
+
+       git commit preparaccion o staging repositorio local 
+
+       git push = para enviar la version final al repositorio remoto
+       
+       para copiar automatica mente una actualizaccion del repositorio remoto
+       y tener una copia actualisada de lo ultimo que paso en en el repositorio
+
+       git pull = copiamos el repositorio local la base de datos de cambios y copiamos el directorio
+
+
+       ramas = es donde podemos hacer  cambios sin afectar la rama principal o master 
+
+git commit -am = para agregar los archivos solo funciona con archivos que ya le haygamos echo commit anterior mente
+
+
+git commit -a para disparar la aleryta para esc ribir el mensaje 
+
+git Branch nombre de la rama este comando es para crear una nueva ras o una rama de nuestro proyecto
+ para no afectar la master que es la base 
+
+git checkout nombre de la rama para moverno a ella 
+
+git merge nombre de la rama que bas a unir a la base para fucionarlas
+
+merg cunando hacemos un merg no se crea ninguna rama lo que real mente ocurre
+ es que la rama cabecera desaparece y se une a la ruta final o ala rama  base en este caso master 
+ 
+ el merg simpre se hace en la base 
+
+
+
